@@ -1,3 +1,8 @@
+let Richtig_Boolean = 0
+let Zehnerstelle = 0
+let Vollständige_Eingabe = 0
+let Einerstelle = 0
+let Zufallszahl = 0
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     if (Richtig_Boolean == 1) {
         reset()
@@ -52,9 +57,3 @@ function reset () {
     Zufallszahl = randint(1, 20)
     init()
 }
-let Zufallszahl = 0
-let Einerstelle = 0
-let Vollständige_Eingabe = 0
-let Zehnerstelle = 0
-let Richtig_Boolean = 0
-reset()
