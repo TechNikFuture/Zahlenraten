@@ -1,5 +1,5 @@
 {
-    "name": "Zahlenraten A+B",
+    "name": "Zahlenraten",
     "description": "",
     "dependencies": {
         "core": "*"
