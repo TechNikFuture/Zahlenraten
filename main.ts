@@ -48,6 +48,7 @@ function reset () {
         . . . . .
         . . # . .
         `)
+    Richtig_Boolean = 0
     Zufallszahl = randint(1, 20)
     init()
 }
@@ -57,4 +58,3 @@ let Vollständige_Eingabe = 0
 let Zehnerstelle = 0
 let Richtig_Boolean = 0
 reset()
-Richtig_Boolean = 0
